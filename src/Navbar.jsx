@@ -5,9 +5,13 @@ import logo from './logo.svg'
 
 function Navbar() {
     return (
-        <div>
-            Navbar
-        </div>
+        <nav>
+            <div className="nav-center">
+                <div className="links-container show-container">
+                    <ul className="social-icons"></ul>
+                </div>
+            </div>
+        </nav>
     )
 }
 
