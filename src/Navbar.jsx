@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
-import { FaBars, FaTwitter } from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6'
 import { links, social } from './data';
 import logo from './logo.svg'
 
@@ -31,17 +32,17 @@ function Navbar() {
                     <ul className="social-icons">
                         <li>
                             <a href="https://www.twitter.com">
-                                <FaTwitter />
+                                <FaXTwitter />
                             </a>
                         </li>
                         <li>
                             <a href="https://www.twitter.com">
-                                <FaTwitter />
+                                <FaXTwitter />
                             </a>
                         </li>
                         <li>
                             <a href="https://www.twitter.com">
-                                <FaTwitter />
+                                <FaXTwitter />
                             </a>
                         </li>
                     </ul>
