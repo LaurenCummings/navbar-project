@@ -1,3 +1,4 @@
+import './Navbar.css';
 import { useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6'
