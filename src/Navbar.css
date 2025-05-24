@@ -10,6 +10,16 @@
     margin-left: auto;
 }
 
+.links {
+    list-style-type: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+
 .social-icons {
     display: none;
 }
