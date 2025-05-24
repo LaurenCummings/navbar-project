@@ -18,6 +18,8 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
     text-transform: capitalize;
+    line-height: 30px;
+    font-weight: 500;
 }
 
 .social-icons {
