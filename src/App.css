@@ -1,3 +1,10 @@
+.nav-toggle {
+    background-color: transparent;
+    border: none;
+    color: rgb(73 166 233);
+    font-size: 16px;
+}
+
 .social-icons {
     display: none;
 }
