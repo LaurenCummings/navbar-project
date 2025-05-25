@@ -18,7 +18,7 @@ nav {
 
 .links {
     list-style-type: none;
-    padding-left: 10px;
+    padding-left: 0;
 }
 
 .links a {
@@ -27,6 +27,13 @@ nav {
     text-transform: capitalize;
     line-height: 30px;
     font-weight: 500;
+    padding: 5px 15px;
+    width: 100%;
+    display: block;
+}
+
+.links a:hover {
+    background-color: rgba(73, 166, 233, 0.2);
 }
 
 .social-icons {
@@ -60,11 +67,6 @@ nav {
 
     .links {
         display: flex;
-        margin-left: 50px;
-    }
-
-    .links a {
-        margin-left: 15px;
     }
 
     .social-icons {
