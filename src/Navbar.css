@@ -42,7 +42,9 @@ nav {
 }
 
 .links a:hover {
-    background-color: rgba(73, 166, 233, 0.2);
+    background-color: rgba(165, 213, 248, 0.3);
+    padding: 15px;
+    color: rgb(73, 166, 233);
 }
 
 .social-icons {
