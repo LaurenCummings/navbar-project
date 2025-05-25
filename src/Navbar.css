@@ -40,7 +40,39 @@ nav {
 }
 
 @media screen and (min-width: 800px) {
+    .nav-center {
+        display: flex;
+    }
+
+    .nav-header img {
+        height: 70px;
+        margin-top: 10px;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .links-container {
+        display: flex;
+        margin-top: 15px;
+    }
+
+    .links {
+        display: flex;
+        margin-left: 50px;
+    }
+
+    .links a {
+        margin-left: 15px;
+    }
+
     .social-icons {
         display: flex;
+        align-items: center;
+    }
+
+    .social-icons a {
+        font-size: 18px;
     }
 }
