@@ -46,6 +46,16 @@ nav {
     margin-left: 10px;
 }
 
+.links-container {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+
+.show-container {
+    height: 220px;
+}
+
 @media screen and (min-width: 800px) {
     .nav-center {
         display: flex;
