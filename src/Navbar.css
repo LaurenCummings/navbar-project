@@ -6,6 +6,8 @@ nav {
 .nav-header {
     display: flex;
     padding-left: 10px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav-toggle {
@@ -15,6 +17,12 @@ nav {
     font-size: 16px;
     margin-left: auto;
     cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.nav-toggle:hover {
+    color: rgb(6, 50, 81);
+    transform: rotate(90deg);
 }
 
 .links {
@@ -56,6 +64,9 @@ nav {
 @media screen and (min-width: 800px) {
     .nav-center {
         display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .nav-header img {
@@ -68,8 +79,6 @@ nav {
     }
 
     .links-container {
-        display: flex;
-        margin-top: 15px;
         height: auto !important;
     }
 
