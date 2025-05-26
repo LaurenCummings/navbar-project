@@ -11,11 +11,11 @@ function Navbar() {
     const linksRef = useRef(null);
 
     useEffect(() => {
-        const linksHeight = linksRef.current.getBoundingClientRect().height;
+        const linksHeight = linksRef.current.getBoundingClientRect().height + 20;
         if (showLinks) {
-            linksContainerRef.current.style.height = `${linksHeight}px`
+            linksContainerRef.current.style.height = `${linksHeight}px`;
         } else {
-            linksContainerRef.current.style.height = '0px'
+            linksContainerRef.current.style.height = '0px';
         }
     },[showLinks])
 
