@@ -82,6 +82,7 @@ nav {
 
     .links-container {
         height: auto !important;
+        padding: 5px 15px;
     }
 
     .links {
