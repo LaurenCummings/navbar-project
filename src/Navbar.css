@@ -43,7 +43,7 @@ nav {
 
 .links a:hover {
     background-color: rgba(165, 213, 248, 0.3);
-    padding: 15px;
+    padding-left: 20px;
     color: rgb(73, 166, 233);
 }
 
