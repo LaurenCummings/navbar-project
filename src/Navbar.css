@@ -63,7 +63,7 @@ nav {
     transition: all 0.3s linear;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .nav-center {
         display: flex;
         margin: 0 auto;
@@ -102,7 +102,8 @@ nav {
     .social-icons {
         display: flex;
         align-items: center;
-        margin: 0px 30px;
+        margin: 0px 30px 0px 10px;
+        padding: 0px;
     }
 
     .social-icons a {
