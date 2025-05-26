@@ -85,7 +85,17 @@ nav {
     }
 
     .links {
-        display: flex;
+        display: inline-flex;
+        text-align: center;
+    }
+
+    .links a {
+        padding: 5px 5px;
+        margin: 0px 10px;
+    }
+
+    .links a:hover {
+        padding: 5px 5px;
     }
 
     .social-icons {
