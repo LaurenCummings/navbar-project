@@ -102,9 +102,15 @@ nav {
     .social-icons {
         display: flex;
         align-items: center;
+        margin: 0px 30px;
     }
 
     .social-icons a {
-        font-size: 18px;
+        font-size: 22px;
+        margin: 0px 10px;
+    }
+
+    .social-icons a:hover {
+        opacity: 0.5;
     }
 }
